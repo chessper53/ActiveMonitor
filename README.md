@@ -10,6 +10,6 @@ The developer and owner of this program will not be held responsible for any ill
 
 How to Use:
   - Change E-Mail on "Line 48" of "Main.cs" to whatever your E-Mail is.
-  - Then write an E-Mail to "prof.shitpost420@gmail.com"
+  - Then write an E-Mail to "prof.shitpost420@gmail.com". (Content does not Matter)
   - Finally you will receive an E-Mail with the Contents.
 
