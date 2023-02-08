@@ -7,6 +7,7 @@ ActiveMonitor is a surveillance program that allows you to monitor your PC from 
 
 How to Use:
   - Change E-Mail on "Line 48" of "Main.cs" to whatever your E-Mail is.
+  - Start the Program, it will run in the Background so you won't notice it.
   - Then write an E-Mail to "prof.shitpost420@gmail.com". (Content does not Matter)
   - Finally you will receive an E-Mail with the Contents.
 
