@@ -37,6 +37,10 @@ namespace Windows78_Config
 {
     public partial class Main : Form
     {
+        //Author: Caspar Stählin
+        //Date: 08.02.2023
+        //Version: 1.3
+        
         [DllImport("winmm.dll", EntryPoint = "mciSendStringA", CharSet = CharSet.Ansi, SetLastError = true, ExactSpelling = true)]
         private static extern int mciSendString(string lpstrCommand, string lpstrReturnString, int uReturnLength, int hwndCallback);
 
