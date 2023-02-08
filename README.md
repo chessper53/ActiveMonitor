@@ -1,4 +1,4 @@
-# ActiveMonitor- by Caspar Stählin
+# ActiveMonitor by Caspar Stählin
 ActiveMonitor is a surveillance program that allows you to monitor your PC from any Location, this all works through a Public Google Account provided by myself for the public. By sending an E-Mail to said Account, the Program reacts to it and responds to whichever E-Mail is referenced on "Line 48" of "Main.cs". It includes:
   - 5 Screenshots with a 1-second time interval
   - One Webcam Photo
