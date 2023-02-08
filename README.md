@@ -8,4 +8,6 @@ ActiveMonitor is a surveillance program that allows you to monitor your PC from 
 Disclaimer: This program is intended for lawful and ethical monitoring purposes only. 
 The developer and owner of this program will not be held responsible for any illegal or unethical use of this program by the user. By using this program, the user acknowledges and agrees to the terms and conditions set forth in this disclaimer.
 
+Made by Caspar Stählin
+
 
