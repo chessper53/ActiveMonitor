@@ -1,5 +1,5 @@
 # Surveillance program by Caspar Stählin
-A surveillance program that allows you to monitor your PC from any Location, this all works through a Public Google Account provided by myself for the public. By sending an E-Mail to said Account, the Program reacts to it and responds accordingly.
+This is a surveillance program that allows you to monitor your PC from any Location, this all works through a Public Google Account provided by myself for the public. By sending an E-Mail to said Account, the Program reacts to it and responds accordingly.
 
 ## E-Mail Contents:
   - 5 Screenshots each taken with a 1-second time interval
